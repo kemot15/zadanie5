@@ -1,3 +1,5 @@
+package Zad51;
+
 public class RoomTest {
     public static void main(String[] args) {
         Room room = new Room(25, 19,true,17);

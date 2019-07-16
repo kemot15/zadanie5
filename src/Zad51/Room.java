@@ -1,3 +1,5 @@
+package Zad51;
+
 public class Room {
     private double area;
     private double temperature;
