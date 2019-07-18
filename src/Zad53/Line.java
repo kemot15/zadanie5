@@ -1,19 +1,10 @@
 package Zad53;
 
 public class Line {
-    private int x1;
-    private int y1;
-    private int x2;
-    private int y2;
-
-    public Line(int x1, int y1, int x2, int y2) {
-        this.x1 = x1;
-        this.y1 = y1;
-        this.x2 = x2;
-        this.y2 = y2;
-    }
+    Graph point1 = new Graph();
+    Graph point2 = new Graph();
 
     public double lenght (){
-        return Math.sqrt(Math.pow(this.x2-this.x1,2)+Math.pow(this.y2-this.y1,2));
+        return Math.sqrt(Math.pow(point2.getX()-point1.getX(),2)+Math.pow(point2.getY()-point1.getY(),2));
     }
 }
